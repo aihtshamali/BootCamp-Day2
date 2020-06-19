@@ -1,0 +1,21 @@
+html, body, #root, .room {
+  min-height: 80vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+button{
+  margin: 0 10px;
+  font-weight: bold;
+}
+.lit {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
