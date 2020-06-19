@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Room.css'
 
-function Room({}){
+function Room(){
     const [isLit, setLit] = useState(true);
     let [RoomTemp, setTemp] = useState(72);
     return (
